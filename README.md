@@ -8,6 +8,8 @@ The project involves designing a control system for the ball and beam setup. The
 
 To achieve this, an ultrasonic sensor provides real-time sensing of the ball's position and velocity. The beam can rotate using a motor and gearbox system at its center or sides. The motor angle θ is controlled to manipulate the beam orientation and control the ball position r.
 
+![System](https://github.com/yaswhar/Ball-Beam-Control/blob/main/images/system.jpg)
+
 ## Project Requirements
 
 The control design should meet the following criteria:
