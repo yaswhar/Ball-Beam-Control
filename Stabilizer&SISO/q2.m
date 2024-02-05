@@ -1,0 +1,10 @@
+clear;clc;
+s=tf('s');
+load("K.mat")
+K=minreal(K/s^2);
+G_plant=(0.03613*s+0.335)/(s^2+0.2381*s);
+G_motor=0.0274/(0.003228*s^2+0.003508*s);
+G_inside=minreal(s^2*G_motor*0.2*G_plant);
+H_inside=tf(0.5);
+H_outside=tf(0.5);
+F=tf(0.5);
