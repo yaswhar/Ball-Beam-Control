@@ -23,17 +23,11 @@ The modeling, control design, simulation and analysis is conducted in MATLAB/Sim
 
 This repository contains:
 
-- `model_identification.m` - System identification to obtain θ to r transfer function
-- `PID_design_*.m` - PID controller design using different methods
-- `robust_controller_design.m` - Robust controller for disturbance rejection 
-- `project_report.pdf` - Complete report with explanations, analysis, plots
-- `*.slx` - MATLAB/Simulink model and simulation files
-
-## How to Run
-
-The MATLAB code can be executed by:
-
-1. Cloning the repository
-2. Opening the `*.m` scripts in MATLAB
-3. Running each script to generate plots and analysis
-4. Viewing the project report for results discussion
+- `Sys_Ident` - System identification to obtain θ to r transfer function
+- `Stabilizer&SISO` - Stabilizing the inner control loop and designing PID controller with SISO toolbox
+- `PID_Tuner` - Designing PID with PID Tuner 
+- `PID_Methods` - Designing PID with method such as ZN, R-ZN, A-H, ...
+- `OptimPID` - Designing PID with OptimPID App.
+- `2DOF_PID` - Designing 2DOF-PID with MATLAB Simulinks 2DOF-PID Block
+- `WithDist` - Introducing a input disturbance of 30Hz with the amplitude of 1.
+- `controller_project(1).pdf` - Report of the project in Persian.
