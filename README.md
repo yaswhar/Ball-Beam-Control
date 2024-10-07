@@ -1,6 +1,6 @@
 # Ball and Beam Control System Design - Winter 2023
 
-This repository contains MATLAB code and report for a course project in Automatic Controller Design course, instructed by [Dr. Aria Alasty](http://sharif.ir/~aalasti/) at Sharif University of Technology. Huge shout out to my friend and teammate in this project, Erfan Radfar.
+This repository contains MATLAB code and report for a course project in Automatic Controller Design course, instructed by [Dr. Aria Alasty](http://sharif.ir/~aalasti/) at Sharif University of Technology. Huge shout out to my friend and teammate in this project, [Erfan Radfar](@Erfanmode).
 
 ## Project Description
 
